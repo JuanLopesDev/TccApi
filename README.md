@@ -2,12 +2,23 @@
 
 API RESTful em ASP.NET Core para cadastro de Trabalhos de Conclusão de Curso (TCC), com Entity Framework Core (Code First), migrations automáticas, SQL Server e documentação Swagger.
 
+> Projeto acadêmico desenvolvido para a disciplina de **Microsserviços**.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84753d07-704a-4463-8511-07c9ccf418d2" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61cb2537-93bb-441e-8340-b9d96d2ea9c1" />
 
+## Sobre o projeto
 
+Este projeto é um trabalho da disciplina de Microsserviços da faculdade. O objetivo é construir uma API em ASP.NET com C# para o cadastro de TCC, seguindo os requisitos abaixo:
+
+- API RESTful, com os verbos GET, POST, PUT e DELETE
+- Gravação dos dados em banco de dados
+- Automatic migration (Code First)
+- Swagger para documentação
+- Campos: Id, TituloTCC, Autores, Orientador e DataDeConclusao
+
+A API funciona como um serviço independente, com responsabilidade única (gerenciar TCCs), banco de dados próprio e contrato exposto via HTTP e documentado pelo Swagger, o que a deixa pronta para ser consumida por outros serviços ou aplicações.
 
 ## Tecnologias
 
@@ -162,4 +173,5 @@ O Swagger fica disponível em `/swagger` e permite testar todos os endpoints dir
 ## Autor
 
 **Juan Lopes**
+Trabalho da disciplina de Microsserviços
 [github.com/JuanLopesDev](https://github.com/JuanLopesDev)
