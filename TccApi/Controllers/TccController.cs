@@ -17,7 +17,7 @@ public class TccController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Tcc>>> Get()
+    public async Task<ActionResult<IEnumerable<Tcc>>> GetAll()
     {
         return await _context.Tccs.AsNoTracking().ToListAsync();
     }
